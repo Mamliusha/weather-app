@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  background-image: url('https://wallpaperset.com/w/full/4/3/4/72929.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-family: 'Roboto';
+}
+.card{
+background-color: #eaeaead5;
+padding: 2em;
+border-radius: 30px;
+width: 100%;
+max-width: 380px;
+margin: 1em;
+
+}
+.description{
+    text-transform: capitalize;
+}
+button:hover{
+    border: 1px solid rgb(24, 8, 72);
+}
+button{
+    border:none;
+    background-color: none;
+}
+.temp{
+    font-weight: bolder;
+}
+.searchBar{
+    border-radius: 5px;
+    height: 1.2em;
+    border: none;
+}
