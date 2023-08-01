@@ -36,11 +36,3 @@ search : function(){
 
 document.querySelector('.search-button').addEventListener("click", function(){weather.search()})
 
-let picture = {
-    'apiKey': 'sYVjdXOynmIvd_OMEKdgMF9nmNRT054lEPybDimw9UM',
-    fetchPicture: function(){
-        fetch("https://api.unsplash.com/photos/?client_id=sYVjdXOynmIvd_OMEKdgMF9nmNRT054lEPybDimw9UM").then((response)=>response.json)
-        .then((data) => console.log(data));
-    }
-    
-}
